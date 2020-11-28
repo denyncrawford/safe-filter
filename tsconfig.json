@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "target": "ES5",
+    "rootDir": "./src",
     "outDir": "./dist",
     "lib": ["ES2015", "ES2016", "DOM"],
     "allowJs": false,
     "strict": true,
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "module": "commonjs",
+    "module": "ESNext",
     "noEmit": false,
     "declaration": true,
     "sourceMap": true,

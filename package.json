@@ -18,7 +18,7 @@
   },
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc",
+    "build": "rollup -c",
     "preversion": "npm test",
     "lint": "tslint --fix --project .",
     "test": "nyc mocha -r ts-node/register tests/**/*.spec.ts"
@@ -26,6 +26,7 @@
   "author": "wyattis",
   "license": "MIT",
   "devDependencies": {
+    "@rollup/plugin-typescript": "^6.1.0",
     "@types/chai": "^4.2.12",
     "@types/mocha": "^8.0.0",
     "chai": "^4.2.0",
